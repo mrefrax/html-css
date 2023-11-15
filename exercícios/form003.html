@@ -12,23 +12,23 @@
          <form action="cadastro.php" method="post" autocomplete="off">
           <p>
             <label for="inome">Nome:</label>
-             <input type="text" name="nome" id="inome" required minlength="5" maxlength="15" placeholder="nome de usuário">
+             <input type="text" name="nome" id="inome" required maxlength="30" placeholder="nome de usuário">
           </p>
           <p>
             <label for="imedia">Média:</label>
-             <input type="number" name="media" id="imedia" required main="0" max="10" step="0.1">
+             <input type="number" name="media" id="imedia" required min="0" max="10" step="0.1">
           </p>
           <p>
-            <label for="idia">Período letivo:</label>
+            <label for="idia">Período Letivo:</label>
              <input type="date" name="dia" id="idia" required>
           </p>
           <p>
-            <label for="imes">Mês:</label>
-             <input type="month" name="mes" id="imes" required>
+            <label for="ihora">Hora da Prova:</label>
+             <input type="time" name="hora" id="ihora" required>
           </p>
           <p>
-            <label for="ihora">Hora da prova:</label>
-             <input type="time" name="hora" id="ihora" required>
+            <label for="imes">Mês:</label>
+             <input type="month" name="mes" id="imes">
           </p>
           <p>
             <input type="submit" value="Enviar">
