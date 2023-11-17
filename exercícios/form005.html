@@ -6,18 +6,17 @@
     <title>Formulário.</title>
 </head>
 <body>
-    <form action="cadastro.php" method="get" autocomplete="off">
+    <form action="cadastro.php" method="post" autocomplete="off">
       <fieldset>
-          <legend>Sexo</legend>
-               <input type="radio" name="sexo" id="isex"> <label for="isex">Masculino</label> <br>
-                <input type="radio" name="sexo" id="isex"> <label for="isex">Feminino</label> <br>
-          
+        <legend>Sexo</legend>
+         <input type="radio" name="sexo" id="imas"> <label for="imas">Masculino</label> <br>
+          <input type="radio" name="sexo" id="ifem"> <label for="ifem">Feminino</label> <br>
       </fieldset>
         
          <fieldset>
-             <legend>Esporte Favorito</legend>
-               <input type="checkbox" name="fute" id="ifute"> <label for="ifute">Futebol</label> <br>
-                <input type="checkbox" name="nata" id="inata"> <label for="inata">Natação</label> <br>
+            <legend>Esportes Favoritos</legend>
+             <input type="checkbox" name="fute" id="ifute"> <label for="ifute">Futebol</label> <br>
+              <input type="checkbox" name="nata" id="inata"> <label for="inata">Natação</label> <br>
          </fieldset>
         <p>
             <input type="submit" value="Enviar">
