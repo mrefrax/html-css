@@ -7,26 +7,24 @@
 </head>
 <body>
 
-     <form action="cadastro.php" method="post" autocomplete="off">
+      <form action="cadastro.php" method="post" autocomplete="off">
 
-         <p>
-            <label for="iestado">Estado:</label>
-             <select name="estado" id="iestado">
-                <option value="MG">Minas Gerais</option>
-                <option value="RJ">Rio de Janeiro</option>
-                <option value="SP" selected>São Paulo</option>
-             </select>
-         </p>
+        <label for="iestado">Esatdo:</label>
+         <select name="estado" id="iestado">
+            <option value="MG">Minas Gerais</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="SP">São Paulo</option>
+         </select>
          <p>
             <label for="iprof">Profissão:</label>
-             <input type="text" name="prof" id="iprof" list="lstprof">
+             <input type="text" name="prof" id="oprof" list="lstprof">
 
-            <datalist id="lstprof">
-                <option value="ADM">Administrador</option>
-                <option value="CONT">Contabilista</option>
-                <option value="PROF">Professor</option>
-                <option value="DEV">Desenvoolvedor</option>
-            </datalist>
+          <datalist id="lstprof">
+            <option value="ADM">Desenvolvedor</option>
+            <option value="PROF">Profssor</option>
+            <option value="CONT">Contabilista</option>
+            <option value="ADM">Administrador</option>
+          </datalist>
          </p>
          <p>
             <label for="imsg">Mensagem:</label>
@@ -34,8 +32,8 @@
          </p>
          <p>
             <input type="submit" value="Enviar">
-             <input type="reset" value="Limpar">
+            <input type="reset" value="Limpar">
          </p>
-     </form>
+      </form>
 </body>
 </html>
