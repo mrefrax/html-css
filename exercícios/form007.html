@@ -9,31 +9,30 @@
 
       <form action="cadastro.php" method="post" autocomplete="off">
 
-        <label for="iestado">Esatdo:</label>
+         <label for="iestado">Estado:</label>
          <select name="estado" id="iestado">
-            <option value="MG">Minas Gerais</option>
-            <option value="RJ">Rio de Janeiro</option>
-            <option value="SP">São Paulo</option>
+         <option value="MG">Minas Gerais</option>
+         <option value="RJ">Rio de Janeiro</option>
+          <option value="SP" selected>São Paulo</option>
          </select>
          <p>
-            <label for="iprof">Profissão:</label>
-             <input type="text" name="prof" id="oprof" list="lstprof">
-
-          <datalist id="lstprof">
-            <option value="ADM">Desenvolvedor</option>
-            <option value="PROF">Profssor</option>
-            <option value="CONT">Contabilista</option>
-            <option value="ADM">Administrador</option>
-          </datalist>
+          <label for="irpfo">Profissão:</label>
+           <input type="text" name="prof" id="iprof" list="lstprof">
+ 
+            <datalist id="lstprof">
+              <option value="ADM">Administrador</option>
+              <option value="PROF">Professor</option>
+              <option value="CONT">Contabilista</option>
+              <option value="DEV">Desenvolvedor</option>
+            </datalist>
          </p>
          <p>
-            <label for="imsg">Mensagem:</label>
-             <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+          <label for="imsg">Mensagem:</label>
+          <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
          </p>
          <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
+          <input type="submit" value="Enviar">
+          <input type="reset" value="Limpar">
          </p>
       </form>
-</body>
 </html>
