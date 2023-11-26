@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: burlywood;
+}
+
+header > h1{
+    text-align: center;
+}
+
+#burguer{
+    background-color: grey;
+    width: 100vw;
+    text-align: center;
+    padding: 4px;
+}
+
+#burguer:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+menu{
+    background-color: gray;
+    display: none;
+}
+
+menu > ul{
+    background-color: gainsboro;
+    text-align: center;
+    list-style-type: none;
+    padding: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px gainsboro;
+    margin-top: 10px;
+    width: 90vw;
+    padding-top: 20px;
+    margin: auto;
+}
+
+article h2{
+    text-align: center;
+}
+
+article p{
+    text-indent: 20px;
+}
