@@ -6,9 +6,10 @@
     <link rel="stylesheet" href="mediaq.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+      <link rel="stylesheet" href="mq5.css">
     <title>Media Query</title>
 </head>
-<body>
+<body onresize="Tamanho">
     
     <header>
         <h1>Meu site responsivo com Media Query.</h1>
@@ -33,6 +34,15 @@
      </section>
 
       <script>
+
+        function Tamanho(){
+          if (window.innerwidth >= 768){
+               item.style.display = 'block'
+          } else {
+               item.style.display = 'none'
+          }
+        }
+
           function clickMenu(){
                if (item.style.display == 'block'){
                     item.style.display = 'none'
