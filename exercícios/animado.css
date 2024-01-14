@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: lighter;
+}
+
+
+
+.box-degr{
+    width: 100%;
+    padding: 300px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left, #a3a3a3, #636363, #2e2e2e);
+    background-size: 500% 100%;
+    animation: degr-anima 5s infinite alternate;
+}
+
+@keyframes degr-anima{
+    0%{
+        background-position-x: 0%;
+    }
+    100% 
+    {
+        background-position-x: 100%;
+    }
+}
